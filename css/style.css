@@ -1,0 +1,198 @@
+/*   header */
+
+.header-a {
+    height: 70px;
+    background: #fff;
+    /*    border: 1px solid #F94800 !important;*/
+    border-bottom: 1px solid #eee;
+}
+
+.header-a h1 {
+    font-size: 2.5em !important;
+    font-family: "Lobster", cursive, Engravers MT;
+    line-height: 40px;
+}
+
+.header-a-txt {
+    width: 100%;
+    text-align: center;
+}
+
+.header-a-txt h1 {
+    line-height: 60px;
+}
+
+
+/*   rn-top  */
+
+.rn-top {
+    width: 50px;
+    height: 30px;
+    position: fixed;
+    right: 5px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #eee;
+    top: 360px;
+}
+
+.rn-qq {
+    top: 400px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.rn-tel {
+    top: 450px;
+}
+
+
+/*   amaze  ui  */
+
+.am-prev,
+.am-nav-next {
+    display: none !important;
+}
+
+.am-slider-default .am-control-nav {
+    bottom: 15px;
+    right: 15px;
+    width: auto;
+    text-align: none;
+}
+
+.am-btn {
+    background: none;
+    border: none;
+    height: 50px;
+    line-height: 30px;
+    width: 110px;
+}
+
+.am-btn-primary {
+    color: #303030
+}
+
+.am-icon-sm::before {
+    font-size: 150%;
+}
+
+.am-btn-group {
+    width: 100%;
+    text-align: center;
+}
+
+.am-btn-b {
+    float: inherit !important;
+}
+
+.am-btn-c {
+    float: right !important;
+}
+
+.am-gallery {
+    margin-bottom: 50px;
+}
+
+.am-pureview-direction a {
+    display: none;
+}
+
+.icon-txt {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.ms-btn {
+    width: 100%;
+    text-align: center
+}
+
+.ms-btn button {
+    margin-top: 15px;
+    width: 80%;
+    height: 30px;
+    background: #00BD8D;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.am-slider-default .am-control-nav li a {
+    background: #ffffff;
+}
+
+.am-g {
+    margin-bottom: 50px;
+}
+
+.cs-shade {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 50%;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.cs-shade-box {
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    background: #fff;
+    top: 1%;
+    left: 1%;
+}
+
+.cs-sha-txt {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    top: 20%;
+}
+
+.cs-sha-txt h3 {
+    font-size: 1.2em;
+    color: aquamarine;
+}
+
+.cs-sha-txt p {
+    font-family: FangSong;
+}
+
+.my-animation-delay {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.cs-shade {
+    display: none;
+}
+
+.rn-top {
+    display: none;
+}
+
+
+/*   footer  */
+
+.footer-ex {
+    width: 100%;
+    /*    height: 50px;*/
+    margin-bottom: 60px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    font-family: FangSong;
+    padding-top: 10px;
+}
+
+.footer-a {
+    position: fixed;
+    bottom: 0px;
+    background: #ffffff;
+    z-index: 1111;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #D0D0D0;
+}

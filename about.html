@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Stranger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <!--    <link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <!--    header     -->
+    <div class="header-a">
+        <div class="header-a-txt">
+            <h1><b>Stranger</b></h1></div>
+
+    </div>
+
+
+    <!--    AOBUT ME  -->
+    <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>About ME</span></h2>
+            <img src="img/o1.jpg" alt="about me" class="blog-entry-img">
+            <P></P>
+            <p>欧扬</p>
+            <p>
+            喜欢旅游 喜欢美好的事物。
+            </p>
+            <p>我没有生来勇敢 天赋过人 面对悬念迭起欠缺一些天分 却变成一个不同的人 普通又不普通的人</p>
+        </div>
+        <div class="blog-sidebar-widget blog-bor rn-top">
+            <h2 class="blog-text-center blog-title"><span>Contact ME</span></h2>
+            <p>
+                <a href="tencent://message/?uin=1013546570&Site=Sambow&Menu=yes"><span class="am-icon-qq am-icon-fw am-primary blog-icon"></span></a>
+                <a href="javascript:;" onclick="git()"><span class="am-icon-github am-icon-fw blog-icon"></span></a>
+                <a href="" onclick="wei()"><span class="am-icon-weibo am-icon-fw blog-icon"></span></a>
+                <a href="" onclick="xin()"><span class="am-icon-weixin am-icon-fw blog-icon"></span></a>
+            </p>
+        </div>
+        <div class="blog-clear-margin blog-sidebar-widget blog-bor am-g ">
+            <h2 class="blog-title"><span>TAG cloud</span></h2>
+            <div class="am-u-sm-12 blog-clear-padding">
+                <a href="" class="blog-tag">双子座</a>
+                <a href="" class="blog-tag">90后</a>
+                <a href="" class="blog-tag">成长ing</a>
+                <a href="" class="blog-tag">喜欢旅游 摄影</a>
+                <a href="" class="blog-tag">喜欢打游戏</a>
+                <a href="" class="blog-tag">也时常纠结..</a>
+            </div>
+        </div>
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-title"><span>Skill</span></h2>
+            <ul class="am-list">
+                <li><a href="#">熟悉并使用PS/LR修图工具...;</a></li>
+                <li><a href="#">熟悉并使用AE视频处理软件...;</a></li>
+                <li><a href="#">..............</a></li>
+                
+            </ul>
+        </div>
+
+    </div>
+    <style>
+        * + address,
+        * + blockquote,
+        * + dl,
+        * + fieldset,
+        * + figure,
+        * + hr,
+        * + ol,
+        * + p,
+        * + pre,
+        * + ul {
+            margin-top: 0px;
+        }
+        
+        .am-btn {
+            line-height: 0;
+        }
+        
+        .blog-entry-img {
+            border-radius: 50%;
+            border: 1px solid #fff;
+            -webkit-box-shadow: 3px 3px 3px;
+            -moz-box-shadow: 3px 3px 3px;
+            box-shadow: 3px 3px 3px;
+        }
+        
+        .cs-bbtn {
+            background: #00C78F;
+            height: 35px;
+            border-radius: 5px;
+        }
+    </style>
+
+
+    <!--   Tabs   -->
+    <div class="cs-tabs">
+        <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs">
+                <li class="am-active"><a href="#tab1">LBS</a></li>
+                <li><a href="#tab2">Contact</a></li>
+
+            </ul>
+
+            <div class="am-tabs-bd">
+
+                <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                    <img src="img/map.png" width="100%" height="300px" alt="">
+                </div>
+
+                <div class="am-tab-panel am-fade" id="tab2">
+                    <form action="" class="am-form" id="doc-vld-msg">
+                        <fieldset>
+                            <legend>联系我,请留下你的信息</legend>
+                            <div class="am-form-group">
+                                <label for="doc-vld-name-2-1">姓名：</label>
+                                <input type="text" id="doc-vld-name-2-1" minlength="2" placeholder="输入你的名字（至少 2 个字符）" required/>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="doc-vld-email-2-1">邮箱：</label>
+                                <input type="email" id="doc-vld-email-2-1" data-validation-message="自定义提示信息：输入地球上的电子邮箱撒" placeholder="输入邮箱" required/>
+                            </div>
+
+
+                            <div class="am-form-group">
+                                <label>性别： </label>
+                                <label class="am-radio-inline">
+                                    <input type="radio" value="" name="docVlGender" required> 男
+                                </label>
+                                <label class="am-radio-inline">
+                                    <input type="radio" name="docVlGender"> 女
+                                </label>
+                               
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="doc-select-1-1">什么事情</label>
+                                <select id="doc-select-1-1" required>
+                                    <option value="">-=请选择一项=-</option>
+                                    <option value="option1">觉得我比较帅...</option>
+                                    <option value="option2">还是觉得我比较帅...</option>
+                                    <option value="option3">你必须选一个...</option>
+                                </select>
+                                <span class="am-form-caret"></span>
+                            </div>
+
+
+
+                            <div class="am-form-group">
+                                <label for="doc-vld-ta-2-1">留言：</label>
+                                <textarea id="doc-vld-ta-2-1" minlength="10" maxlength="100"></textarea>
+                            </div>
+
+                            <button class="am-btn am-btn-secondary cs-bbtn" type="submit">提交</button>
+                        </fieldset>
+                    </form>
+
+                    <script>
+                        $(function () {
+                            $('#doc-vld-msg').validator({
+                                onValid: function (validity) {
+                                    $(validity.field).closest('.am-form-group').find('.am-alert').hide();
+                                },
+
+                                onInValid: function (validity) {
+                                    var $field = $(validity.field);
+                                    var $group = $field.closest('.am-form-group');
+                                    var $alert = $group.find('.am-alert');
+                                    // 使用自定义的提示信息 或 插件内置的提示信息
+                                    var msg = $field.data('validationMessage') || this.getValidationMessage(validity);
+
+                                    if (!$alert.length) {
+                                        $alert = $('<div class="am-alert am-alert-danger"></div>').hide().
+                                        appendTo($group);
+                                    }
+
+                                    $alert.html(msg).show();
+                                }
+                            });
+                        });
+                    </script>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--   footer-er   -->
+    <div class="footer-ex">
+        <p><b>Gs Personal Show</b></p>
+        <p>© 2016 Personal resume</p>
+    </div>
+
+
+
+
+    <!--   单选框 footer   -->
+    <div class="footer-a">
+        <div class="am-btn-group doc-js-btn-1" data-am-button>
+
+            <label class="am-btn am-btn-primary" onclick="javascript:location='home.html'">
+                <input type="radio" name="options" value="选项 1" id="option1">
+
+                <p><span class="zm-icon"> <img src="img/home.png" width="30px" height="25px" alt=""> </span>
+                    <p class="icon-txt">HOME</p>
+                </p>
+
+            </label>
+
+
+            <label class="am-btn am-btn-primary am-btn-b " onclick="javascript:location='portfolio.html'">
+                <input type="radio" name="options" value="选项 2" id="option2">
+
+                <p><span class="zm-icon"> <img src="img/pro.png" width="30px" height="25px" alt=""> </span>
+                    <p class="icon-txt">PORTFOLIO</p>
+                </p>
+
+            </label>
+
+            <label class="am-btn am-btn-primary am-btn-c am-active" onclick="javascript:location='about.html'">
+                <input type="radio" name="options" value="选项 3" id="option3">
+
+                <p class="ym-icon-a">
+                    <span class="zm-icon"> <img src="img/user.png" width="30px" height="25px" alt=""> </span>
+                    <p class="icon-txt">ABOUT ME</p>
+                </p>
+
+            </label>
+        </div>
+
+        <script>
+            // 获取选中的值
+            $(function () {
+                var $radios = $('[name="options"]');
+                $radios.on('change', function () {
+                    console.log('单选框当前选中的是：', $radios.filter(':checked').val());
+                });
+            });
+
+            //   oBtn   弹出
+            function oBtn() {
+                alert('个人博客正在建设中...');
+            }
+
+            function git() {
+                alert('这个人的gitbub上面没干货,暂不链接,QQ可点击');
+            }
+
+            function wei() {
+                alert('这个人只喜欢潜水看微博,暂不开通,QQ可点击');
+            }
+
+            function xin() {
+                alert('这个人微信上面更干净,原谅我比较low,QQ可点击');
+            }
+        </script>
+
+
+
+    </div>
+
+
+    <!--    js    -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
+    <!--    <script src="js/pinto.min.js"></script>-->
+    <!--    <script src="js/img.js"></script>-->
+</body>
+
+</html>
